@@ -1,0 +1,8 @@
+<div class="container">
+    <h1 class="products__title">Catálogo</h1>
+    <div class="fichas">
+        <app-product-card *ngFor="let product of resultado" [nombreProduct]="product.nombre" [precioProduct]="product.precio" (cantidadProduct)="cantidadInicial=$event" [fotoProduct]="product.foto">
+        </app-product-card>
+    </div>
+</div>
+

@@ -1,0 +1,33 @@
+.card {
+    border: 2px solid black;
+    width: 12rem;
+    height: 15rem;
+    margin:1rem;
+    border-radius:1rem;
+    box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.75);
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around; 
+    align-items: center;   
+}
+
+.card:hover {
+    border: 2px solid red ;
+}
+
+.boton {
+    width: 5rem;
+    border:1px solid black;
+    border-radius:1rem;
+    font-weight:bold;
+}
+
+.boton:hover {
+    border: 1px solid red;
+}
+
+.fotoProducto {
+    max-width:6rem;
+    max-height: 5rem;
+}
